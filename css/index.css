@@ -44,6 +44,21 @@ p {
 
 */
 
+.comingsoon {
+    color: #005a9c;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url(.images/comingsoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
 
 /*nav starts here*/
 
