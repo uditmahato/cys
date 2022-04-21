@@ -1,0 +1,178 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+p {
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #1C1C1CFF;
+}
+a {
+	text-decoration: none!important;
+}
+.usa-home-flag img{
+	height:9%;
+	width:13%;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.usa-home-navbar{
+	padding: 0.8rem;
+    background-color:#005a9c!important;
+    color:white!important;
+}
+.usa-home-navbar-nav li{
+	padding-right:20px; 
+}
+
+.usa-home-navbar-nav li a:hover{
+	background: white!important;
+	color: #005a9c!important;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.usa-home-nav-link li a:active{
+	background: white!important;
+	color:#005a9c!important;
+	text-decoration: none;
+	box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.usa-home-nav-link{
+	font-size: 1em!important;
+}
+
+.usa-home-carousel-item img{
+	height:80vh;
+	width: 100%;
+}
+.usa-home-slider{
+	color: red!important;
+	background-color: #fff!important;
+}
+.usa-home-carousel-caption{
+	position: absolute;
+	margin: auto!important;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.usa-home-first{
+   background-color:#005a9c!important;
+   border: none!important;
+   text-align: center;
+}
+.usa-home-first:hover{
+	text-align: center;
+	border: 1px solid #ffff!important;
+}
+.usa-home-second{
+    text-align: center;
+	background-color: #fff!important;
+	color: #005a9c!important;
+}
+.usa-home-second:hover{
+   border:#005a9c!important;
+   text-align: center;
+   border: 1px solid #005a9c!important;
+}
+/*usa Guide*/
+.usa-home-usaguide{
+	background-color: rgba(0,90,156,0.8);
+}
+
+.usa-home-side-image img{
+    width: 100%;
+    height: 60vh;
+}
+/*usa Guide*/
+
+/**Footer starts**/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 70px;
+	background: linear-gradient(#005a9c 100%,#fff 0%)!important;
+	margin-top: 20px;
+}
+.footersection p{
+	color: #fff;
+
+}
+.footersection li{
+	list-style-type: none;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	font-weight: 400;
+    line-height: 1.6;
+    color: #fff!important;
+    text-transform: capitalize;
+    text-align: center!important;
+}
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom:-5px;
+	font-size: 1.2rem!important;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+}
+.footer-div span a{
+	color: white!important;
+	text-decoration: none;
+}
+/**Footer Ends**/
+/*Newsletter starts*/
+.news-letter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
+}
+
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;
+	min-width: 150px;
+	min-height: 45px;
+
+}
+.input-group-text{
+    background: #005a9c!important;
+    border-radius: 0 100px 100px 0!important;
+    min-width: 12px;
+    min-height: 45px;
+}
+
+/*Newsletter ends*/
+@media(max-width:768px){
+
+	.footersection{
+  	padding: 20px 5px 20px 5px;
+  }
+  .footersection h3,.footersection li{
+  	text-align: left!important;
+  }
+  .footersection h3s{
+  	padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 736px) {
+	.usa-home-flag img{
+		position:relative;
+		left: 90%;
+		top: 80%;
+	}
+	
+.navbar-toggler{
+        position: absolute;
+        top: 50%;
+}
+.navbar-toggler{
+	position: fixed;
+	top: 6%;
+}
+}
